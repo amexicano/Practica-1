@@ -6,7 +6,7 @@ def add_device(GUI, comunidad, host, oid):
         'oid':oid.get("1.0", "end-1c")
     }
     # Opening JSON file
-    f = open('data.json')
+    f = open('data.json','w')
   
     # returns JSON object as 
     # a dictionary

@@ -5,7 +5,7 @@ if (__name__ == "__main__"):
 	# Run the main program
 	# creates a Tk() object
 	master = Tk()
-
+	master.resizable(False, False)
 	# sets the geometry of main
 	# root window
 	master.title("Sistema de Administracion de Red")
